@@ -27,9 +27,14 @@ the excitation and A/D conversion, processes the incoming data and report the re
 
 
 ## Documentation & Repository Structure
+* **General Documentation**: this projected was developed as part of Electrical Engineering undergraduation discipline, therefore, all the work is documented in Portuguese in the final report (report.pdf)
+* **Schematics**: also inside the final report
+* **Controller Code**: controller.ino file
+* **Project Parameters Calculation Spreadsheet**: a simple spreadsheet with all the parameters calculation formulas implemented
+* **Curve Fitting and Result Analysis Notebook**: jupyter notebook containing the procedure for curve fitting and a brief statistical analysis of the device measurement precision
 
 
 ## Known Issues and Future Work
- * *Probe Casing*: the lack of a probe casing does not garantee that the geometry of the electrodes surroundings stays invariant, thus causing significant variability on measures taken through different probe positions with respect to the fluid recipient.
- * *Temperature Consideration*: both ethanol and gasoline conductivities vary with temperature, therefore it is necessary to include a thermometer on the probe to account for it.
- * *Fuel aging*: during test it was observed that after a few weeks the fuel samples changed their conductivity. The reason this transformation took place is not kown, and poses a challenge to the scope of applicability of this device. 
+ * **Probe Casing**: the lack of a probe casing does not garantee that the geometry of the electrodes surroundings stays invariant, thus causing significant variability on measures taken through different probe positions with respect to the fluid recipient.
+ * **Temperature Consideration**: both ethanol and gasoline conductivities vary with temperature, therefore it is necessary to include a thermometer on the probe to account for it.
+ * **Fuel aging**: during test it was observed that after a few weeks the fuel samples changed their conductivity. The reason this transformation took place is not kown, and poses a challenge to the scope of applicability of this device. 
