@@ -26,8 +26,10 @@ the excitation and A/D conversion, processes the incoming data and report the re
 </p>
 
 
-
 ## Documentation & Repository Structure
 
 
-## Known Issues and Future Work 
+## Known Issues and Future Work
+ * *Probe Casing*: the lack of a probe casing does not garantee that the geometry of the electrodes surroundings stays invariant, thus causing significant variability on measures taken through different probe positions with respect to the fluid recipient.
+ * *Temperature Consideration*: both ethanol and gasoline conductivities vary with temperature, therefore it is necessary to include a thermometer on the probe to account for it.
+ * *Fuel aging*: during test it was observed that after a few weeks the fuel samples changed their conductivity. The reason this transformation took place is not kown, and poses a challenge to the scope of applicability of this device. 
